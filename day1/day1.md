@@ -52,3 +52,16 @@
 添加`System.out.println("你好");` 并没出现乱码
 
 ![image-20220601073738769](https://cdn.jsdelivr.net/gh/codeheng/personPic@main/imgBlog/202206010737829.png)
+
+
+
+
+
+问题：
+
+上传`github` 里面的`java`文件中文出现乱码
+
+![image-20220601074442602](https://cdn.jsdelivr.net/gh/codeheng/personPic@main/imgBlog/202206010744634.png)
+
+
+
