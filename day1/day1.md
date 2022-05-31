@@ -57,11 +57,24 @@
 
 
 
-问题：
+**问题：**
 
 上传`github` 里面的`java`文件中文出现乱码
 
 ![image-20220601074442602](https://cdn.jsdelivr.net/gh/codeheng/personPic@main/imgBlog/202206010744634.png)
 
+> 将文件格式 改为 `UTF-8`
 
 
+
+但是控制台会出现乱码错误
+
+![image-20220601074932091](https://cdn.jsdelivr.net/gh/codeheng/personPic@main/imgBlog/202206010749119.png)
+
+通过控制台参数进行指定，可以解决
+
+```shell
+javac -encoding utf-8 Hello.java
+```
+
+![image-20220601075052842](https://cdn.jsdelivr.net/gh/codeheng/personPic@main/imgBlog/202206010750873.png)
